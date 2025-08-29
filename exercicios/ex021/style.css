@@ -1,0 +1,44 @@
+@charset "UTF-8";
+body{
+    background-color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+    background-color: rgb(174, 157, 157);
+    box-shadow: 8px 8px 13px rgba(105, 8, 8, 0.597);
+    text-align: right;
+}
+nav > ul > a{
+    text-decoration: none;
+    margin-right: 30px;
+}
+nav > ul > a:hover{
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+}
+
+main{
+    
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 2px;
+}
+footer{
+    text-align: center;
+     margin-top: 15px;
+    background-color: white;
+   border-radius:15px ;
+   padding: 2px;
+}
+footer > p{
+    margin: 0%;
+}
+div#bola{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 15px;
+    margin-left: 2px;
+    border-radius: 50%;
+}
